@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+sudo rm -rf ./eosio_docker/data
 # make sure everything is clean and well setup
 echo "[quick_start.sh] First time setup"
 ./first_time_setup.sh
